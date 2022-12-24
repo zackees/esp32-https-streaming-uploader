@@ -11,3 +11,5 @@ been tested (using psram) and it worked fine.
 Modifying this code to use something like an SD card should be straightforward.
 
 Pull requests are welcome.
+
+If you like this code please give this repo a star.
