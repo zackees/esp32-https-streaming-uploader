@@ -25,6 +25,9 @@ The file to be uploaded is streamed in place, with no copies. The test code
 in this example will create a 1 kB dummy file. But a test file with 2 MB has
 been tested (using psram) and it worked fine.
 
+Not that the default SSL method uses insecure. You should modify it if you want to
+use a CA cert and further lock it down.
+
 Modifying this code to use something like an SD card should be straightforward.
 
 Pull requests are welcome.
