@@ -129,6 +129,8 @@ namespace
         String value = header.substring(colon + 1);
         value.trim();
         http->addHeader(key, value);
+      } else {
+	Serial.printf("Warning, skipping invalid header %s\n", header.c_str());
       }
     }
   }
