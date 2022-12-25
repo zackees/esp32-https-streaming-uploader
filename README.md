@@ -30,6 +30,9 @@ use a CA cert and further lock it down.
 
 Modifying this code to use something like an SD card should be straightforward.
 
-Pull requests are welcome.
-
 If you like this code please give this repo a star.
+Note that the fieldname "datafile" is currently hard wired into this lib. So your
+endpoint must specify that upload file as "datafile" or you will get a status code
+422.
+
+Pull requests are welcome.
