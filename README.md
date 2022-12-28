@@ -28,6 +28,13 @@ been tested (using psram) and it worked fine.
 Not that the default SSL method uses insecure. You should modify it if you want to
 use a CA cert and further lock it down.
 
+## Upload form should use "datafile" as the upload target.
+
+This can be changed easily but I simply haven't done this yet for this library. So keep that in mind
+for your solution.
+
+## SD Card usage
+
 Modifying this code to use something like an SD card should be straightforward.
 
 If you like this code please give this repo a star.
